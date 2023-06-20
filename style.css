@@ -1,0 +1,12 @@
+body {
+  font-family: monospace, 'Ubuntu Mono';
+  background: #fbfbfbf8;
+  color: blueviolet;
+}
+
+.super-baby-zone img {
+  width: 400px;
+  height: auto;
+  border-radius: .2em;
+  border: .2em solid rgba(177, 107, 243, 0.632);
+}
