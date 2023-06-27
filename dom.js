@@ -1,18 +1,15 @@
-const heading = document.querySelector('#grown-heading');
-// console.dir(heading)
-// console.log(heading.innerText)
-// console.log(heading.textContent)
-// heading.textContent = 'Heloo im really grown h1'
-// console.log(heading.innerHTML)
-// console.log(heading.outerHTML)
+const babyImg = document.querySelector('.baby')
+// console.dir(babyImg.alt)
+babyImg.width = 300
 
-const pra = document.querySelector('.baby')
-console.log(pra.innerText)
-// pra.innerText = pra.innerText + '👶 '
-// pra.innerText = pra.innerText + '👶 '
-// pra.innerText = pra.innerText + '👶 '
-pra.innerText = pra.innerText + '👶 '
-pra.innerText = pra.innerText + '👶 '
+// babyImg.naturalWidth  = 1000
+// console.log(babyImg.naturalWidth)
+// babyImg.setAttribute('cute-baby', 'true')
+// // babyImg['cute-baby'] = 'true'
+// console.log(babyImg.getAttribute('cute-baby'))
 
-// pra.insertAdjacentText('afterbegin', '👶' )
-// pra.insertAdjacentText('beforeend', '👶' )
+// console.log(babyImg.dataset.imgCategory)
+
+// babyImg.addEventListener('click', function(){
+//   alert(babyImg.dataset.imgCategory + ' is the category of this image')
+// })
